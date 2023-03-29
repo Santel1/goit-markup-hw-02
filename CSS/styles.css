@@ -208,11 +208,53 @@ ul {
   text-decoration: none;
 }
 .footer-text {
-  color: var(--white-background-color);
+  color: var(--section-color);
   font-family: "Raleway";
   font-size: 16px;
-  font-weight: 800;
-  line-height: 21px;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
+}
+
+/*                  */
+/* Portfolio styles */
+/*                  */
+
+.filter-buttons {
+  list-style: none;
+}
+
+/* .filter-title {
+} */
+
+.filter-btn-item {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  color: var(--primary-brand);
+  background-color: var(--section-color);
+}
+
+.filter-btn-item:hover,
+.filter-btn-item:focus {
+  color: var(--white-background-color);
+  background-color: var(--btn-active-color);
+  cursor: pointer;
+}
+
+.filter-list-img {
+}
+.filter-item-img {
+}
+.filter-subtitle {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+}
+.filter-text {
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
 }
