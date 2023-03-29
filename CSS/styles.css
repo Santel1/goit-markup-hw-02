@@ -1,0 +1,130 @@
+:root {
+  --primary-brand: #4d5ae5;
+  --btn-active-color: #404bbf;
+  --title-text-color: #2e2f42;
+  --body-text-color: #434455;
+  --section-color: #f4f4fd;
+  --white-background-color: #fff;
+  --dark-background-color: #2e2f42;
+}
+
+body {
+  background-color: var(--white-background-color);
+  color: var(--body-text-color);
+  font-family: roboto;
+  font-size: 16px;
+}
+
+ul {
+  list-style: none;
+}
+
+/* Header nav section */
+
+.nav {
+  background-color: var(--white-background-color);
+}
+
+.logo {
+  color: var(--primary-brand);
+  font-family: Raleway;
+  font-size: 18px;
+}
+
+.logo-second-color {
+  color: var(--title-text-color);
+  font-family: Raleway;
+  font-size: 18px;
+}
+
+.nav-link {
+  color: var(--title-text-color);
+  size: 16px;
+}
+
+.nav-contacts {
+  color: var(--body-text-color);
+}
+
+/* Title */
+
+.title {
+  background-color: var(--dark-background-color);
+}
+
+.title-text {
+  color: var(--white-background-color);
+}
+
+.title-btn {
+  background-color: var(--primary-brand);
+  color: var(--white-background-color);
+}
+
+/* About us section */
+
+.about-company {
+}
+.about-title {
+}
+.about-list {
+}
+.about-list-item {
+}
+.about-subtitle {
+  color: var(--title-text-color);
+  font-size: 20px;
+}
+.about-text {
+  font-size: 16px;
+}
+
+/* What are we doing */
+.content {
+}
+.content-title {
+  color: var(--title-text-color);
+  font-size: 36px;
+}
+.content-list {
+}
+.content-item {
+}
+.content-img {
+}
+
+/* Our team */
+.team {
+  background-color: var(--section-color);
+}
+.team-title {
+  color: var(--title-text-color);
+  font-size: 36px;
+}
+.team-list {
+}
+.team-item {
+}
+.team-img {
+}
+.team-subtitle {
+  color: var(--title-text-color);
+  font-size: 20px;
+}
+.team-text {
+  font-size: 16px;
+}
+
+/* Footer */
+.footer {
+  background-color: var(--dark-background-color);
+}
+.logo {
+}
+.footer-logo {
+  color: var(--white-background-color);
+}
+.footer-text {
+  color: var(--white-background-color);
+  font-size: 16px;
+}
