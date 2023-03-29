@@ -11,7 +11,7 @@
 body {
   background-color: var(--white-background-color);
   color: var(--body-text-color);
-  font-family: roboto;
+  font-family: "Roboto";
   font-size: 16px;
 }
 
@@ -30,7 +30,7 @@ ul {
 
 .logo {
   color: var(--primary-brand);
-  font-family: Raleway;
+  font-family: "Raleway";
   font-size: 18px;
   font-weight: 800;
   line-height: 21px;
@@ -41,7 +41,7 @@ ul {
 
 .logo-second-color {
   color: var(--title-text-color);
-  font-family: Raleway;
+  font-family: "Raleway";
   font-size: 18px;
   font-weight: 800;
   line-height: 21px;
@@ -200,7 +200,7 @@ ul {
 }
 .footer-logo {
   color: var(--section-color);
-  font-family: Raleway;
+  font-family: "Raleway";
   font-weight: 800;
   line-height: 21px;
   letter-spacing: 0.03em;
@@ -209,7 +209,7 @@ ul {
 }
 .footer-text {
   color: var(--white-background-color);
-  font-family: Raleway;
+  font-family: "Raleway";
   font-size: 16px;
   font-weight: 800;
   line-height: 21px;
